@@ -2,7 +2,6 @@ use std::io;
 
 pub fn sign64 () -> i64
 {
-    println!("Enter integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -15,7 +14,6 @@ pub fn sign64 () -> i64
 
 pub fn sign32 () -> i32
 {
-    println!("Enter integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -28,7 +26,6 @@ pub fn sign32 () -> i32
 
 pub fn sign16 () -> i16
 {
-    println!("Enter integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -41,7 +38,6 @@ pub fn sign16 () -> i16
 
 pub fn sign8 () -> i8
 {
-    println!("Enter integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -53,7 +49,6 @@ pub fn sign8 () -> i8
 }
 pub fn usizeint () -> usize
 {
-    println!("Enter integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -65,7 +60,6 @@ pub fn usizeint () -> usize
 }
  pub fn float64 () -> f64
 {
-    println!("Enter float");
     let mut string = String::new();
     io::stdin().read_line(&mut string).expect("Failed to read line");
 
@@ -75,7 +69,6 @@ pub fn usizeint () -> usize
 }
 pub fn float32 () -> f32
 {
-    println!("Enter float");
     let mut string = String::new();
     io::stdin().read_line(&mut string).expect("Failed to read line");
 
@@ -86,7 +79,6 @@ pub fn float32 () -> f32
 
 pub fn chara() -> char
 {
-    println!("Enter char");
     let mut string = String::new();
     io::stdin().read_line(&mut string).expect("Failed to read line");
 
@@ -97,7 +89,6 @@ pub fn chara() -> char
 
 pub fn str()->String
 {
-    println!("Enter string");
     let mut string = String::new();
     io::stdin().read_line(&mut string).expect("Failed to read line");
     
@@ -108,7 +99,6 @@ pub fn str()->String
 
 pub fn unsign32 () -> u32
 {
-    println!("Enter unsigned integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -120,7 +110,6 @@ pub fn unsign32 () -> u32
 }
 pub fn unsign64 () -> u64
 {
-    println!("Enter unsigned integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -133,7 +122,6 @@ pub fn unsign64 () -> u64
 
 pub fn unsign16 () -> u16
 {
-    println!("Enter unsigned integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
@@ -145,7 +133,6 @@ pub fn unsign16 () -> u16
 
 pub fn unsign8 () -> u8
 {
-    println!("Enter unsigned integer");
     let mut string = String::new();
 
     io::stdin().read_line(&mut string).expect("Failed to read line");
