@@ -140,5 +140,4 @@ pub fn unsign8 () -> u8
     let string : u8 = string.trim().parse().unwrap();
 
     string
-
 }
